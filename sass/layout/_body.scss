@@ -1,1 +1,4 @@
-@use "../abstracts/mixins" as *;
+@use "../abstracts/" as *;
+body {
+  background-color: $black-color;
+ }
