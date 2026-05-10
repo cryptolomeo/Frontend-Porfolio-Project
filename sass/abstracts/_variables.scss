@@ -4,33 +4,27 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: "Poppins", sans-serif !default;
+$text-font: "Space Grotesk", sans-serif !default;
 
-/// Code (monospace) font family
-/// @type List
-$code-font-stack:
-  "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Monaco",
-  monospace !default;
-
-/// Copy text color
+/// Black color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$black-color: #151515 !default;
 
-/// Main brand color
+/// Green color
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
-
-/// Light grey
-/// @type Color
-$light-grey: rgb(237, 237, 237) !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
+$green-color: #4EE1A0 !default;
 
 /// Dark grey
 /// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
+$dark-grey: #242424 !default;
+
+/// Grey
+/// @type Color
+$grey: #D9D9D9 !default;
+
+/// White
+/// @type Color
+$white: #FFFFFF !default;
 
 //Brakpoints
 $bp-tablet: 768px;
