@@ -29,10 +29,26 @@
     text-transform: none,
     word-spacing: normal,
   ),
-  "body": (
+  "heading-s": (
+    font-family: $text-font,
+    font-size: 16px,
+    line-height: 26px,
+    font-weight: 700,
+    text-transform: none,
+    word-spacing: 2.29px,
+  ),
+  "body-m": (
     font-family: $text-font,
     font-size: 18px,
     line-height: 28px,
+    font-weight: 500,
+    text-transform:none,
+    word-spacing: normal,
+  ),
+  "body-s": (
+    font-family: $text-font,
+    font-size: 16px,
+    line-height: 26px,
     font-weight: 500,
     text-transform:none,
     word-spacing: normal,
