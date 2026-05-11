@@ -5,10 +5,37 @@
   align-items: center;
   text-align: center;
   padding-bottom: 80px;
+  position: relative;
+
+  &::after{
+    content: '';
+    background-image: url('../../img/oval-decoration.svg');
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 130px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: calc(50% - 100px);
+  }
+
+  &::before {
+    content: '';
+    background-image: url('../../img/circle-decoration.svg');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    z-index: 10;
+    top: 105px;
+    right: -16px;
+    transform: translateX(50%);
+  }
 
   &__media {
     padding-bottom: 40px;
     position: relative;
+
     &::before {
       content: "";
       height: calc(100% + 80px);
