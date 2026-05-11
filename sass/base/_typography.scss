@@ -11,7 +11,7 @@
     line-height: 88px,
     font-weight: 700,
     text-transform: none,
-    word-spacing: -2.5px,
+    letter-spacing: -2.5px,
   ),
   "heading-l": (
     font-family: $text-font,
@@ -19,7 +19,7 @@
     line-height: 56px,
     font-weight: 700,
     text-transform: none,
-    word-spacing: -1.5px,
+    letter-spacing: -1.5px,
   ),
   "heading-m": (
     font-family: $text-font,
@@ -27,7 +27,7 @@
     line-height: 32px,
     font-weight: 700,
     text-transform: none,
-    word-spacing: normal,
+    letter-spacing: normal,
   ),
   "heading-s": (
     font-family: $text-font,
@@ -35,7 +35,7 @@
     line-height: 26px,
     font-weight: 700,
     text-transform: none,
-    word-spacing: 2.29px,
+    letter-spacing: 2.29px,
   ),
   "body-m": (
     font-family: $text-font,
@@ -43,7 +43,7 @@
     line-height: 28px,
     font-weight: 500,
     text-transform:none,
-    word-spacing: normal,
+    letter-spacing: normal,
   ),
   "body-s": (
     font-family: $text-font,
@@ -51,6 +51,6 @@
     line-height: 26px,
     font-weight: 500,
     text-transform:none,
-    word-spacing: normal,
+    letter-spacing: normal,
   ),
 );
