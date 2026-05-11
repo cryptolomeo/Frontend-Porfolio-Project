@@ -23,10 +23,10 @@
 
 // 4. Components
 @use "components/button";
-@use "components/hero";
 @use "components/activities";
 
 // 5. Pages
+@use "pages/hero";
 @use "pages/home";
 
 // 6. Themes
