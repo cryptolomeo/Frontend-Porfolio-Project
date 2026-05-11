@@ -52,6 +52,7 @@
   cursor: pointer;
   transition: all .5s ease;
   color: $white;
+  @include text-style("heading-s");
   position: relative;
 
   &::before {
@@ -60,7 +61,7 @@
     height: 2px;
     background-color: $green-color;
     position: absolute;
-    bottom: -5px;
+    bottom: -10px;
   }
 
 
