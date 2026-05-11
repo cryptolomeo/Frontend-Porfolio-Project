@@ -1,0 +1,35 @@
+@use "../abstracts/" as *;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+
+  &__media {
+    padding-bottom: 40px;
+  }
+
+  &__avatar {
+    width:180px;
+  }
+
+  &__content {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    align-items: center
+  }
+
+  &__title {
+    @include text-style("heading-l");
+    font-size: 40px;
+  }
+
+  &__description {
+    @include text-style("body-s");
+    color: $grey;
+    }
+
+}
