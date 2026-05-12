@@ -54,6 +54,7 @@
   color: $white;
   @include text-style("heading-s");
   position: relative;
+  padding-bottom: 10px;
 
   &::before {
     content: '';
@@ -61,7 +62,7 @@
     height: 2px;
     background-color: $green-color;
     position: absolute;
-    bottom: -10px;
+    bottom: 0px;
   }
 
 
