@@ -1,0 +1,36 @@
+@use "../abstracts/mixins" as *;
+.card {
+  display: flex;
+  flex-direction:column;
+  gap: 20px;
+
+  &__image-container {
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    display: block;
+  }
+
+  &__content{
+    display:flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  &__title{
+    @include text-style("heading-m");
+  }
+
+  &__stack {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
