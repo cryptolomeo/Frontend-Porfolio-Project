@@ -10,6 +10,32 @@
   margin-bottom: 80px;
   position: relative;
 
+  &::before {
+    content: '';
+    width: 95%;
+    height: 1px;
+    position:absolute;
+    bottom: 0;
+    z-index: 1;
+    background-color: $white;
+    align-self: center;
+
+  }
+
+  &::after{
+    content: '';
+    background-image: url('../../img/oval-decoration-rigth.svg');
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 130px;
+    position: absolute;
+    z-index: -1;
+    top: 105px;
+    right: -100px;
+    transform: translateX(50%);
+    top: 483px;
+  }
+
   &__title {
     @include text-style("heading-m");
   }
