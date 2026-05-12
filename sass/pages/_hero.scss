@@ -75,8 +75,7 @@
   }
 
   &__title {
-    @include text-style("heading-l");
-    font-size: 40px;
+    @include text-style("heading-ml");
   }
 
   &__description {
