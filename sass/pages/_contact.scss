@@ -1,0 +1,108 @@
+@use "../abstracts/" as *;
+.contact {
+position:relative;
+
+  &::before {
+      content: '';
+      background-image: url('../../img/oval-decoration.svg');
+      background-repeat: no-repeat;
+      width: 530px;
+      height: 130px;
+      position: absolute;
+      z-index: 11;
+      bottom: 100px;
+      left: 0;
+      transform: translateX(-50%);
+    }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  &__title {
+    @include text-style("heading-ml");
+  }
+
+  &__description {
+    @include text-style("body-s");
+    color: $grey;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 90px;
+    border-bottom: 1px solid $white;
+  }
+
+  &__field {
+    position: relative;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 32px 0px 24px 16px;
+    border-bottom: 1px solid $white;
+    &:focus {
+      outline: none;
+      border-bottom-color: $green-color;
+    }
+    &:not(:placeholder-shown):invalid {
+      border-bottom-color: $red;
+    }
+
+    &:not(:placeholder-shown):invalid + .contact__error {
+      display: block;
+    }
+
+    &:not(:placeholder-shown):invalid ~ .contact__error-icon {
+      display: inline-flex;
+    }
+  }
+
+  &__input--name {}
+
+  &__input--email {}
+
+  &__error {
+    position: absolute;
+    display: none;
+    right: 16px;
+    color:$red;
+    margin-top: 8px;
+  }
+
+  &__error-icon {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 16px;
+    top:20px;
+    color:$red;
+    font-weight: 700;
+    font-size: 20px;
+    border:1px solid $red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+
+  &__input--textarea {}
+
+  &__action {
+    align-self: flex-end;
+    padding-top: 32px;
+  }
+
+}
