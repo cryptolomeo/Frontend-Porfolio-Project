@@ -11,6 +11,17 @@
   &__image {
     width: 100%;
     display: block;
+    transition: transform .5s ease,
+                opacity .2s ease;
+    @media (hover: hover) {
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+    &:active {
+      transform: scale(.98);
+      opacity: .8;
+    }
   }
 
   &__content{
