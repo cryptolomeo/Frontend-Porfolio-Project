@@ -1,8 +1,7 @@
 @use "../abstracts/" as *;
 .stack {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   text-align: center;
   gap:24px;
   padding-top: 40px;
@@ -20,7 +19,6 @@
     height: 130px;
     position: absolute;
     z-index: -1;
-    top: 105px;
     right: -100px;
     transform: translateX(50%);
     top: 483px;
