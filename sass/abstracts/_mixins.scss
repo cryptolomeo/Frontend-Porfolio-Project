@@ -65,8 +65,6 @@
     bottom: 0px;
   }
 
-
-  // Solo aplicar hover en desktop
   @media (hover: hover){
     &:hover {
      color: $green-color;
@@ -74,9 +72,8 @@
     }
   }
 
-// Feedback táctil en mobile
   &:active {
-    transform: scale(0.95);
+    transform: scale(0.94);
     color: $green-color;
   }
 }
