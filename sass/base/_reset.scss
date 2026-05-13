@@ -19,3 +19,13 @@ ul {
 *::after {
   box-sizing: border-box;
 }
+
+input, textarea {
+  background: none;
+  border:none;
+}
+
+button {
+  background: none;
+  border: none;
+}
