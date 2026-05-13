@@ -22,7 +22,22 @@ padding-bottom: 40px;
     justify-content: center;
   }
 
-  &__social-link{}
+  &__social-link{
+    display: inline-flex;
+    transition: transform .5s ease;
+    .header__icon path {
+      transition: fill .5s ease;
+    }
+    @media (hover: hover) {
+      &:hover .header__icon path{
+            fill:$green-color;
+          }
+    }
+
+    &:active {
+      transform: scale(0.94);
+    }
+  }
 
   &__icon{
       width: 20px;
