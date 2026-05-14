@@ -56,3 +56,23 @@
       height: 20px;
     }
 }
+
+@include breakpoint("tablet") {
+  .footer {
+    padding-top: 30px;
+
+    &__container{
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__logo {
+      width:170px;
+    }
+
+    &__icon {
+      width: 25px;
+      height:25px;
+    }
+  }
+}
