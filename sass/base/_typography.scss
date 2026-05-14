@@ -5,13 +5,21 @@
  */
 
  $typography-scale: (
-  "heading-xl": (
+  "heading-xxl": (
     font-family: $text-font,
     font-size: 88px,
     line-height: 88px,
     font-weight: 700,
     text-transform: none,
     letter-spacing: -2.5px,
+  ),
+  "heading-xl": (
+    font-family: $text-font,
+    font-size: 72px,
+    line-height: 72px,
+    font-weight: 700,
+    text-transform: none,
+    letter-spacing: -2.05px,
   ),
   "heading-l": (
     font-family: $text-font,
