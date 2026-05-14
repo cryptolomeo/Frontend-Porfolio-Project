@@ -21,3 +21,18 @@
     gap: 40px;
   }
 }
+
+@include breakpoint("tablet") {
+  .projects {
+    gap:60px;
+    margin-bottom: 100px;
+
+    &__title {
+      @include text-style("heading-xl");
+    }
+
+    &__grid {
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+  }
+}
