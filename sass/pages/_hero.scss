@@ -133,7 +133,9 @@
       grid-column: 1 / 2;
       grid-row: 1;
       max-width: 800px;
-      margin-right: -35px
+      padding-top: 60px;
+      margin-right: -35px;
+      align-items: start;
     }
 
     &__title {
