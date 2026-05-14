@@ -34,7 +34,7 @@
   }
 
   &__media {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     position: relative;
 
     &::before {
@@ -60,11 +60,24 @@
     flex-direction: column;
     gap:24px;
     align-items: center;
-    position: relative;
   }
 
   &__title {
     @include text-style("heading-ml");
+  }
+
+  &__line:last-child {
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    &::before {
+      content: '';
+      width: 95%;
+      height: 4px;
+      background-color: $green-color;
+      position: absolute;
+      bottom: -4px;
+    }
   }
 
   &__description {
