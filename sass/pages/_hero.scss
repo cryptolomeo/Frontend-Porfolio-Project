@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 80px;
+  margin-bottom: 80px;
   position: relative;
 
   &::after{
@@ -91,6 +91,8 @@
     display: grid;
     grid-template-columns: 58% 42%;
     text-align: start;
+    align-items: start;
+    margin-bottom: 60px;
 
     &::before {
       display: none;
@@ -100,6 +102,9 @@
       grid-column: 2 / 3;
       grid-row: 1;
       justify-self: end;
+      align-self: end;
+      z-index: -1;
+      margin-bottom: 0;
 
       &::after {
         content: '';
@@ -141,6 +146,7 @@
 
     &__description {
       @include text-style("body-m");
+      max-width: 520px;
     }
   }
 }
