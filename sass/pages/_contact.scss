@@ -104,3 +104,27 @@ position:relative;
     padding-top: 32px;
   }
 }
+
+@include breakpoint("tablet") {
+  .contact {
+    margin-top: 60px;
+
+    &__container {
+      padding-left: 160px;
+      padding-right: 160px;
+
+    }
+
+    &__form {
+      border-bottom: none;
+    }
+
+    &__title {
+      @include text-style("heading-xl");
+    }
+  }
+}
+
+// *{
+//   outline: 1px solid red;
+// }
