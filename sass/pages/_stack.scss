@@ -42,12 +42,15 @@
 
 @include breakpoint("tablet") {
   .stack{
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    text-align: start;
-    padding-top: 50px;
-    padding-bottom: 0;
-    margin-bottom: 100px;
-    border-bottom: none;
+
+    &__container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      text-align: start;
+      padding-top: 50px;
+      padding-bottom: 0;
+      margin-bottom: 100px;
+      border-bottom: none;
+    }
 
     &__title {
       @include text-style("heading-l");
