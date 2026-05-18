@@ -61,3 +61,24 @@
     }
   }
 }
+
+@include breakpoint("desktop") {
+  .stack{
+
+    &__container {
+      padding-top:75px;
+      margin-bottom: 140px;
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    &::before {
+      right: 20px;
+      bottom: -50px;
+    }
+  }
+}
