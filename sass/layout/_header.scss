@@ -59,6 +59,7 @@
 @include breakpoint("tablet") {
   .header {
     padding-top: 30px;
+    margin-bottom: 75px;
 
     &__container{
       flex-direction: row;
