@@ -75,3 +75,9 @@
     }
   }
 }
+
+@include breakpoint("desktop") {
+  .header {
+    padding-top: 40px;
+  }
+}
