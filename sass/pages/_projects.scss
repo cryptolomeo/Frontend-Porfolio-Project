@@ -44,3 +44,31 @@
     }
   }
 }
+
+@include breakpoint("tablethorizontal") {
+  .projects {
+
+    &__grid {
+      grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+      row-gap: 60px;
+      column-gap: 25px;
+    }
+  }
+}
+
+@include breakpoint("desktop") {
+  .projects {
+    gap:60px;
+    margin-bottom: 100px;
+
+    &__title {
+      @include text-style("heading-xxl");
+    }
+
+    &__grid {
+      grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+      row-gap: 70px;
+      column-gap: 30px;
+    }
+  }
+}
