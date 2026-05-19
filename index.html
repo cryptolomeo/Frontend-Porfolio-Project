@@ -237,15 +237,15 @@
           </div>
           <form action="" method="post" name="contact" autocomplete="on" class="contact__form">
             <div class="contact__field">
-              <input type="text" class="contact__input contact__input--name" placeholder="NAME" required>
+              <input type="text" class="contact__input contact__input--name" placeholder="NAME" id="name" autocomplete="name" required>
             </div>
             <div class="contact__field">
-              <input type="email" class="contact__input contact__input--email" placeholder="EMAIL" required>
+              <input type="email" class="contact__input contact__input--email" placeholder="EMAIL" id="email" autocomplete="email" required>
               <span class="contact__error">Sorry, invalid format here</span>
               <span class="contact__error-icon">!</span>
             </div>
             <div class="contact__field">
-              <textarea class="contact__input contact__input--textarea" placeholder="MESSAGE" required></textarea>
+              <textarea class="contact__input contact__input--textarea" placeholder="MESSAGE" id="message" rows="4" required></textarea>
             </div>
             <div class="contact__action">
               <button class="button">SEND MESSAGE</button>
