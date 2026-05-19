@@ -111,6 +111,10 @@ position:relative;
   .contact {
     margin-top: 60px;
 
+    &::before{
+      bottom:20px;
+    }
+
     &__container {
       padding-left: 160px;
       padding-right: 160px;
