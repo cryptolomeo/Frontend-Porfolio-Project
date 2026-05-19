@@ -97,7 +97,9 @@ position:relative;
     height: 30px;
   }
 
-  &__input--textarea {}
+  &__input--textarea {
+    resize:none;
+  }
 
   &__action {
     align-self: flex-end;
@@ -112,7 +114,6 @@ position:relative;
     &__container {
       padding-left: 160px;
       padding-right: 160px;
-
     }
 
     &__form {
@@ -125,6 +126,27 @@ position:relative;
   }
 }
 
-// *{
-//   outline: 1px solid red;
-// }
+@include breakpoint("desktop") {
+  .contact{
+
+
+    &::before {
+    left: 250px;
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: row;
+      gap: 200px;
+    }
+
+    &__header {
+      width: 50%;
+      text-align: start;
+    }
+
+    &__form {
+      width: 50%;
+    }
+  }
+}
