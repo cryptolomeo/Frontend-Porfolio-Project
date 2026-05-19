@@ -27,12 +27,14 @@ https://cryptolomeo.github.io/Frontend-Porfolio-Project/
 
 ## 📂 Project Structure
 
+```bash
 project/  
 ├── index.html  
 ├── css/  
 ├── scss/  
 ├── img/  
 ├── js/  
+```
 
 ---
 
@@ -40,6 +42,7 @@ project/
 
 This project follows a modular SCSS structure inspired by the 7-1 pattern for scalability and maintainability.
 
+```bash
 scss/  
 ├── abstracts/   # variables, mixins, functions  
 ├── base/        # reset, typography  
@@ -48,6 +51,7 @@ scss/
 ├── section/     # section-specific styles  
 ├── vendors/     # external styles  
 └── main.scss  
+```
 
 ---
 
@@ -77,17 +81,21 @@ scss/
 
 ## ⚙️ Installation
 
+```bash
 git clone https://github.com/cryptolomeo/Frontend-Porfolio-Project.git    
 cd your-repo  
 npm install  
 npm run dev  
+```
 
 ---
 
 ## 🚀 Deployment
 
+```bash
 npm run build  
 npm run deploy  
+```
 
 ---
 
