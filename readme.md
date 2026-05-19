@@ -77,7 +77,7 @@ scss/
 
 ## ⚙️ Installation
 
-git clone https://github.com/your-username/your-repo.git  
+git clone https://github.com/cryptolomeo/Frontend-Porfolio-Project.git    
 cd your-repo  
 npm install  
 npm run dev  
