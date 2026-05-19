@@ -47,7 +47,7 @@
 }
 
 @mixin button(){
-  display: inline-flex;
+  display: inline-block;
   width:auto;
   cursor: pointer;
   transition: all .5s ease;
