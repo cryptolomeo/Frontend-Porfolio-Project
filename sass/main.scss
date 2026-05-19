@@ -14,24 +14,18 @@
 @use "layout/body";
 @use "layout/container";
 @use "layout/footer";
-@use "layout/forms";
-@use "layout/grid";
 @use "layout/header";
-@use "layout/navbar";
-@use "layout/sidebar";
 @use "layout/main";
 
 // 4. Components
 @use "components/button";
-@use "components/activities";
 @use "components/card";
 
-// 5. Pages
-@use "pages/contact";
-@use "pages/hero";
-@use "pages/home";
-@use "pages/projects";
-@use "pages/stack";
+// 5. Section
+@use "section/contact";
+@use "section/hero";
+@use "section/projects";
+@use "section/stack";
 
 // 6. Themes
 @use "themes/default";
