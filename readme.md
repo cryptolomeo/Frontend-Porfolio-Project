@@ -6,13 +6,13 @@ Responsive personal portfolio project built with a mobile-first approach and mod
 
 ## 🌍 Live Demo
 
-
+https://cryptolomeo.github.io/Frontend-Porfolio-Project/
 
 ---
 
 ## 📸 Preview
 
-
+<img width="2786" height="3755" alt="all" src="https://github.com/user-attachments/assets/519a5edd-bcc1-4c23-bfc6-903566c8937f" />
 
 ---
 
