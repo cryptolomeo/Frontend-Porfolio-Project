@@ -40,7 +40,7 @@ project/
 
 This project follows a modular SCSS structure inspired by the 7-1 pattern for scalability and maintainability.
 
-scss/
+scss/  
 ├── abstracts/   # variables, mixins, functions  
 ├── base/        # reset, typography  
 ├── components/  # buttons, cards, form elements  
