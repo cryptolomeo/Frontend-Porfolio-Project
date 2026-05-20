@@ -1,6 +1,6 @@
 # 🎨 Frontend Portfolio Project
 
-Responsive personal portfolio project built with a mobile-first approach and modern SCSS architecture. Focused on layout systems, reusable components and UI interactions.
+Responsive portfolio project built with a mobile-first approach and modern SCSS architecture. Focused on layout systems, reusable components and UI interactions.
 
 ---
 
